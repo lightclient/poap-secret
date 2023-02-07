@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style>
+      /* Style to center the input vertically and horizontally */
+      .input-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="input-container">
+      <form action="/input" method="post">
+        <input type="text" name="input" placeholder="Enter secret">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
+
